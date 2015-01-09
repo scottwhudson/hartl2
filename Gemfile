@@ -43,3 +43,9 @@ group :development, :test do
   gem 'spring'
 end
 
+#gems for Hartl app that weren't included in build
+group :production do
+	gem 'pg', '0.17.1'
+	gem 'rails_12factor', '0.0.2'
+end
+
